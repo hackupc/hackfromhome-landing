@@ -1,10 +1,4 @@
-<br>
-<p align="center">
-  <img alt="HackStart" src="assets/img/logo_title.png" width="250"/>
-</p>
-<br>
-
-HackStart website
+# Hack@Home website
 
 ## Features
 
@@ -17,9 +11,9 @@ HackStart website
 
 Needs: Nothing
 
-### Local 
+### Local
 
-1. Clone repository to your computer with `git clone https://github.com/hackupc/hackstart`
+1. Clone repository to your computer with `git clone https://github.com/hackupc/hackathome-landing`
 2. `cd` into your repository
 3. Open `index.html`
 
@@ -29,7 +23,6 @@ Needs: Nothing
 2. There's no `2`
 
 Deployment is done automatically by [GitHub pages](https://pages.github.com/). You don't need to do anything else than pushing to master.
-
 
 ## License
 
