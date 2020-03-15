@@ -54,9 +54,10 @@ nav {
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url('../img/cover.jpg');
+    background-image: url('../img/IMG_5676.jpg');
+    background-size: cover;
     background-repeat: 'no-repeat';
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 
@@ -71,7 +72,14 @@ nav {
 .subtitle {
     margin-bottom: 2.5em;
     text-align: center;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.subtitle-date {
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
 }
 
 .summary-content {
@@ -356,10 +364,15 @@ footer p {
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 576px) { 
+@media screen and (min-width: 414px) { 
 
     .title {
         font-size: 2.5em;
+    }
+
+    .subtitle-date {
+        text-align: center;
+        font-size: 1em;
     }
 
  }
@@ -372,6 +385,11 @@ footer p {
 
     .subtitle {
         text-align: center;
+    }
+
+    .subtitle-date {
+        text-align: center;
+        font-size: 2em;
     }
 
     footer {
@@ -389,7 +407,6 @@ footer p {
 
     #students h3 {
         text-align: start;
-        margin-left: 3em;
     }
 
     #students .subtitle {
@@ -418,10 +435,6 @@ footer p {
         font-size: 4.75em;
     }
 
-    #students h3 {
-        margin-left: 3em;
-    }
-
     #students .subtitle {
         margin-right: 4em;
     }
@@ -432,7 +445,7 @@ footer p {
     }
 
     .subtitle {
-        font-size:  large;
+        font-size: large;
     }
 
     footer {
