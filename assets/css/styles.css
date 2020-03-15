@@ -57,7 +57,7 @@ nav {
     background-image: url('../img/IMG_5676.jpg');
     background-size: cover;
     background-repeat: 'no-repeat';
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 
@@ -80,6 +80,7 @@ nav {
     text-align: center;
     font-weight: 600;
     font-size: 40px;
+    text-shadow: 3px 4px #FFF;
 }
 
 .summary-content {
@@ -312,6 +313,10 @@ button p {
     margin: 0.5em auto;
 }
 
+#location .stay-text {
+    font-size: 35px;
+}
+
 /** Footer **/
 
 footer {
@@ -360,11 +365,21 @@ footer p {
 
 
 /** Responsive **/ 
+@media screen and (min-width: 200px) { 
 
+    .title {
+        font-size: 2em;
+    }
+
+    .subtitle-date {
+        text-align: center;
+        font-size: 1.5em;
+    }
+}
 
 
 /* Small devices (landscape phones, 576px and up) */
-@media screen and (min-width: 414px) { 
+@media screen and (min-width: 415px) { 
 
     .title {
         font-size: 2.5em;
