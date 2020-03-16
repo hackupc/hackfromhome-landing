@@ -1,4 +1,4 @@
-# Hack@Home website
+# HackFromHome website
 
 ## Features
 
