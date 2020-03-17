@@ -29,7 +29,7 @@ nav {
 }
 
 .active {
-    color: #FF4E32 !important;
+    color: #2BD2FF !important;
 }
 
 .image-background {
@@ -54,19 +54,15 @@ nav {
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url('../img/IMG_5676.jpg');
+    background-image: url('../img/fondo.svg');
     background-size: cover;
     background-repeat: 'no-repeat';
-    opacity: 0.3;
 }
 
 
 .title {
-    font-weight: 600;
-    letter-spacing: 0.1em;
+    font-weight: bolder;
     font-size: 2em;
-    text-align: center;
-    text-shadow: 3px 4px #FF4E32;
 }
 
 .subtitle {
@@ -77,10 +73,8 @@ nav {
 
 .subtitle-date {
     margin-bottom: 1em;
-    text-align: center;
-    font-weight: 600;
+    font-weight: bolder;
     font-size: 40px;
-    text-shadow: 3px 4px #FFF;
 }
 
 .summary-content {
@@ -134,7 +128,7 @@ button p {
     border: 0;
     font-weight: 700;
 
-    background-color: #FF4E32;
+    background-color: #2BD2FF;
     color: white;
 
     font-size: large;
@@ -147,7 +141,7 @@ button p {
     font-weight: 700;
 
     background-color: transparent;
-    border: 2px solid #FF4E32;
+    border: 2px solid #2BD2FF;
 
     font-size: large;
 }
@@ -159,7 +153,7 @@ button p {
     font-weight: 600;
 
     background-color: white;
-    color:  #FF4E32;
+    color:  #2BD2FF;
 }
 
 .button-shadow {
@@ -308,7 +302,7 @@ button p {
 }
 
 #location .info {    
-    border: 1px solid #FF4E32;
+    border: 1px solid #2BD2FF;
     padding: 0.75em;
     margin: 0.5em auto;
 }
@@ -372,7 +366,6 @@ footer p {
     }
 
     .subtitle-date {
-        text-align: center;
         font-size: 1.5em;
     }
 }
@@ -386,7 +379,6 @@ footer p {
     }
 
     .subtitle-date {
-        text-align: center;
         font-size: 1em;
     }
 
@@ -403,7 +395,6 @@ footer p {
     }
 
     .subtitle-date {
-        text-align: center;
         font-size: 2em;
     }
 
