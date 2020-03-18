@@ -15,19 +15,27 @@ header {
     display: inline-block;
     height:100vh;
     position: relative;
+    padding-top: 3.5rem;
 }
 
 
 /**   Navbar   **/
 nav {
-    padding-left: 3em !important;
-    padding-right: 3em !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
 }
 
 .navbar-brand img {
     padding-right: 0.5em;
 }
 
+.navbar-brand {
+    margin-right: 0 !important;
+}
+
+.nav-link{
+    font-weight: 500 !important;
+}
 .active {
     color: #2BD2FF !important;
 }
@@ -94,10 +102,6 @@ nav {
 
 /**   Utils   **/
 
-.inherit-height {
-    height: inherit;
-}
-
 .margin-15{
     margin-left: 0px !important;
 }
@@ -142,13 +146,13 @@ button p {
     width: inherit;
 	font-weight: bold;
 	position: relative;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-transform: uppercase;
 	transition: transform 50ms ease-out;
 	display: block;
 	z-index: 0;
 	margin: 1em 0.5em 1.625em;
-	-webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: none;
 }
 
 .button--hero {
