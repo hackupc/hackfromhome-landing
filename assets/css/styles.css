@@ -102,10 +102,6 @@ nav {
 
 /**   Utils   **/
 
-.inherit-height {
-    height: inherit;
-}
-
 .margin-15{
     margin-left: 0px !important;
 }
