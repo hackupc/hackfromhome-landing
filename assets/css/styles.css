@@ -43,6 +43,11 @@ nav {
 
 /**   Header   **/
 
+.image-main {
+    width: 15%;
+    height: auto;
+}
+
 .summary {
     padding-left: 0em;
     padding-right: 0em;
@@ -67,11 +72,12 @@ nav {
 }
 
 .subtitle {
-    margin-bottom: 2.5em;
+    margin-bottom: 1em;
     margin-top: 1em;
     text-align: center;
     font-weight: 600;
     font-size: 1.55em;
+    color: #1E1E1E;
 }
 
 .subtitle-date {
@@ -128,8 +134,9 @@ button p {
 .button-primary {
 	border: none;
 	background-color: #919191;
-    color: black;
-	padding: 0.625em 1.25em 0.625em;
+    color: #1E1E1E;
+    padding: 0.625em 1.25em 0.625em;
+    padding-bottom: 1em;
     font-family: 'Montserrat', sans-serif;
 	cursor: pointer;
     width: inherit;
@@ -145,7 +152,7 @@ button p {
 }
 
 .button--hero {
-	font-size: 1.8em;
+	font-size: 1.5em;
 	margin: 0 0 0.625em;
 	z-index: 0;
 }
@@ -172,14 +179,6 @@ button p {
 .button-primary:active { transform: translateY(-0.625em); }
 .button-primary:active::before { transform: translateY(0); }
 
-
-
-.button-shadow {
-    -webkit-box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
-    -moz-box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
-    box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
-}
-
 /** Section **/
 
 .section-heading {
@@ -191,6 +190,7 @@ button p {
 .section-title {
     letter-spacing: 0.1em;
     font-weight: 600;
+    color: #1E1E1E;
 }
 
 .section-subtitle {
