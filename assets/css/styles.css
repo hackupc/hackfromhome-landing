@@ -133,7 +133,7 @@ button p {
 
 .button-primary {
 	border: none;
-	background-color: #919191;
+	background-color: #CCCCCC;
     color: #1E1E1E;
     padding: 0.625em 1.25em 0.625em;
     padding-bottom: 1em;
@@ -188,7 +188,7 @@ button p {
 }
 
 .section-title {
-    letter-spacing: 0.1em;
+    letter-spacing: 0em;
     font-weight: 600;
     color: #1E1E1E;
 }
