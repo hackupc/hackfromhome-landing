@@ -301,33 +301,55 @@ button p {
     padding-bottom: 1em;
 }
 
-#location {
-    padding-left: 3em;
-    padding-right: 3em;
+#advent .section-title {
+    color: #304697;
 }
 
-#location .map {
-    padding-bottom: 4em;
-    padding-top: 0;  
+#advent .button-primary {
+	border: none;
+	background-color: #24376B;
+    color: #1E1E1E;
+    padding: 0.625em 1.25em 0.625em;
+    padding-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+    width: inherit;
+	font-weight: bold;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: transform 50ms ease-out;
+	display: block;
+	z-index: 0;
+	margin-top: 2em;
+    margin-right: 0.5em;
+    margin-bottom: 0.1em;
+    margin-left: 0.5em;
+	-webkit-tap-highlight-color: none;
 }
 
-#location .text {
-    vertical-align: center;     
+#advent .button-primary::after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: inherit;
+    z-index: -1;
 }
 
-#location p {
-    text-align: center;
+#advent .button-primary::before {
+	content: '';
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background: #304697;
+	transform: translateY(-0.625em);
+	z-index: -2;
+	transition: inherit;
 }
 
-#location .info {    
-    border: 1px solid #2BD2FF;
-    padding: 0.75em;
-    margin: 0.5em auto;
-}
-
-#location .stay-text {
-    font-size: 35px;
-}
+#advent .button-primary:hover { transform: translateY(-0.125em); }
+#advent .button-primary:hover::before { transform: translateY(-0.5em); }
+#advent .button-primary:active { transform: translateY(-0.625em); }
+#advent .button-primary:active::before { transform: translateY(0); }
 
 /** Footer **/
 
@@ -458,6 +480,10 @@ footer p {
     footer {
         padding-left: 20vh !important;
         padding-right: 20vh !important;
+    }
+
+    #advent .image {
+        width: 40em;   
     }
     
  }
