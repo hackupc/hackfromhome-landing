@@ -308,7 +308,7 @@ button p {
 #advent .button-primary {
 	border: none;
 	background-color: #24376B;
-    color: #1E1E1E;
+    color: white;
     padding: 0.625em 1.25em 0.625em;
     padding-bottom: 1em;
     font-family: 'Montserrat', sans-serif;
