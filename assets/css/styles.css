@@ -149,13 +149,13 @@ button p {
     width: inherit;
 	font-weight: bold;
 	position: relative;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-transform: uppercase;
 	transition: transform 50ms ease-out;
 	display: block;
 	z-index: 0;
 	margin: 1em 0.5em 1.625em;
-	-webkit-tap-highlight-color: none;
+    -webkit-tap-highlight-color: none;
 }
 
 .button--hero {
