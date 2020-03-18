@@ -44,7 +44,7 @@ nav {
 /**   Header   **/
 
 .image-main {
-    width: 13%;
+    width: 20%;
     height: auto;
 }
 
@@ -83,7 +83,7 @@ nav {
 .subtitle-date {
     margin-bottom: 1em;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 1.55em;
     text-align: center;
 }
 
@@ -152,7 +152,7 @@ button p {
 }
 
 .button--hero {
-	font-size: 1.5em;
+	font-size: 1.2em;
 	margin: 0 0 0.625em;
 	z-index: 0;
 }
@@ -382,10 +382,6 @@ footer p {
     .title {
         font-size: 2em;
     }
-
-    .subtitle-date {
-        font-size: 1.5em;
-    }
 }
 
 
@@ -395,11 +391,6 @@ footer p {
     .title {
         font-size: 2.5em;
     }
-
-    .subtitle-date {
-        font-size: 1em;
-    }
-
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -410,10 +401,6 @@ footer p {
 
     .subtitle {
         text-align: center;
-    }
-
-    .subtitle-date {
-        font-size: 2em;
     }
 
     footer {
@@ -456,7 +443,7 @@ footer p {
 /*Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
     .title {
-        font-size: 4.75em;
+        font-size: 4.25em;
     }
 
     #students .subtitle {
