@@ -1,12 +1,13 @@
 
 /** Background colors**/
 .bg-primary-color {
-    background: #2BD2FF;
+    background: #EE74E1;
 }
 
 .bg-accent-color {
     background: #C6ED3B;
 }
+
 
 .bg-white-color {
     background: #FFFFFF;
@@ -24,6 +25,10 @@
     background: #2BFF88;
 }
 
+.bg-yellow {
+    background: #FBDA61;
+}
+
 .bg-dark-grey {
     background: #222222;
 }
@@ -38,7 +43,7 @@
 
 /** Text colors**/
 .primary-color {
-    color: #2BD2FF;
+    color: #EE74E1;
 }
 
 .accent-color {
