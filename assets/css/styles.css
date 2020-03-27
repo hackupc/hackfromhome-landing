@@ -311,7 +311,7 @@ button p {
 
 #advent .button-primary {
 	border: none;
-	background-color: #304697;
+	background-color: rgb(55, 93, 158);
     color: white;
     padding: 0.625em 1.25em 0.625em;
     padding-bottom: 1em;
