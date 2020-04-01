@@ -99,6 +99,32 @@ nav {
     margin-top: -2em;
 }
 
+/**  Paralax  **/
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.overlay-mf {
+    background-color: #1E1E1E;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+}
+
+
 
 /**   Utils   **/
 
@@ -223,30 +249,6 @@ button p {
 .title-question{
     text-align: center;
     padding: 0.5em;
-}
-
-/** Section - startups **/
-
-.startup-logo {
-    margin-top: 4vh;
-    margin-bottom: 8vh;
-    text-align: center;
-    padding: 0 !important;
-}
-
-.startup-logo .helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.startup-logo div {
-    margin-bottom: 4vh;
-}
-
-.startup-logo img {
-    width: 60%;
-    vertical-align: middle;
 }
 
 /** Section - students **/
