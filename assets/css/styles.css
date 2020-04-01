@@ -104,11 +104,11 @@ nav {
 /**  Paralax  **/
 
 .bg-image {
-    background-image: url('../img/background/fons-versio2.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    background-image: url('../img/background/fons-versio2.svg');
 }
 
 .paralax-mf {
