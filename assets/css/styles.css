@@ -115,7 +115,30 @@ nav {
     position: relative;
 }
 
+/* Back to top button */
 
+.back-to-top {
+    position: fixed;
+    display: none;
+    background-image: url('../img/background/fons-versio2.svg');
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+  }
+  
+  .back-to-top i {
+    padding-top: 12px;
+    color: #fff;
+  }
+  
 
 /**   Utils   **/
 
@@ -242,51 +265,11 @@ button p {
     padding: 0.5em;
 }
 
-/** Section - students **/
-
 .event-info {
     width: 50em;
     margin: 0 auto !important;
     text-align: center;
     padding-bottom: 2.5em;
-}
-
-#students .button-contianer {
-    margin: 0 auto !important;
-}
-
-#students button,  #join-startups button {
-    margin-top: 1em;
-    margin-bottom: 2em;
-    margin-left: 5em;
-    margin-right: 5em;
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
-}
-
-
-#students h3 {
-    font-weight: 600;
-    text-align: center;
-    margin-right: 0 auto;
-}
-
-#students .subtitle {
-    margin-left: 0 auto;
-}
-
-#students p{
-    text-align: center;
-    font-weight: 600;
-}
-
-#students .subtitle {
-    margin-bottom: 0;
-}
-
-
-#students .text-center img{
-    padding-bottom: 0.5em;
 }
 
 
@@ -296,6 +279,28 @@ button p {
 
 #schedule .section-heading {
     padding-bottom: 1em;
+}
+
+#schedule table {
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#schedule .table-header {
+    background-color: rgb(77, 76, 76);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+#schedule .table-content {
+    position: relative;
+    text-align: left;
+	background-color: rgba(255,255,255,0.2);
+	padding: 15px;
+	color: #1E1E1E;
 }
 
 #advent .section-title {
