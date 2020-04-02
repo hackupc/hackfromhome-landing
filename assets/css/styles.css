@@ -285,7 +285,9 @@ button p {
 	width: 100%;
 	border-collapse: collapse;
 	overflow: hidden;
-	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 #schedule .table-header {
