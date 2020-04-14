@@ -469,7 +469,7 @@ footer p {
 /*Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
     .title {
-        font-size: 4em;
+        font-size: 3.8em;
     }
 
     #students .subtitle {
