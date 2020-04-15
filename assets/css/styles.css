@@ -67,7 +67,7 @@ nav {
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url('../img/background/fons-versio2.svg');
+    background-image: url('../img/background/fons-versio3.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -86,7 +86,7 @@ nav {
     margin-top: 1em;
     text-align: center;
     font-weight: 600;
-    font-size: 1.55em;
+    font-size: 1.45em;
     color: #1E1E1E;
 }
 
@@ -108,7 +108,7 @@ nav {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    background-image: url('../img/background/fons-versio2.svg');
+    background-image: url('../img/background/fons-versio3.svg');
 }
 
 .paralax-mf {
@@ -120,7 +120,7 @@ nav {
 .back-to-top {
     position: fixed;
     display: none;
-    background-image: url('../img/background/fons-versio2.svg');
+    background-image: url('../img/background/fons-versio3.svg');
     color: #fff;
     width: 44px;
     height: 44px;
@@ -469,7 +469,7 @@ footer p {
 /*Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
     .title {
-        font-size: 4.25em;
+        font-size: 3.8em;
     }
 
     #students .subtitle {
