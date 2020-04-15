@@ -67,7 +67,7 @@ nav {
     right: 0;
     top: 0;
     bottom: 0;
-    background-image: url('../img/background/fons-versio2.svg');
+    background-image: url('../img/background/fons-versio3.svg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -108,7 +108,7 @@ nav {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    background-image: url('../img/background/fons-versio2.svg');
+    background-image: url('../img/background/fons-versio3.svg');
 }
 
 .paralax-mf {
@@ -120,7 +120,7 @@ nav {
 .back-to-top {
     position: fixed;
     display: none;
-    background-image: url('../img/background/fons-versio2.svg');
+    background-image: url('../img/background/fons-versio3.svg');
     color: #fff;
     width: 44px;
     height: 44px;
